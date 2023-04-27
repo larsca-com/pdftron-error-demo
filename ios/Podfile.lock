@@ -1,0 +1,35 @@
+PODS:
+  - Flutter (1.0.0)
+  - PDFTron (1.0.1-10)
+  - pdftron_flutter (0.0.1):
+    - Flutter
+    - PDFTron
+    - PDFTronTools
+  - PDFTronTools (1.0.1-10):
+    - PDFTron
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - PDFTron (from `https://pdftron.com/downloads/ios/flutter/pdftron/latest.podspec`)
+  - pdftron_flutter (from `.symlinks/plugins/pdftron_flutter/ios`)
+  - PDFTronTools (from `https://pdftron.com/downloads/ios/flutter/pdftron-tools/latest.podspec`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  PDFTron:
+    :podspec: https://pdftron.com/downloads/ios/flutter/pdftron/latest.podspec
+  pdftron_flutter:
+    :path: ".symlinks/plugins/pdftron_flutter/ios"
+  PDFTronTools:
+    :podspec: https://pdftron.com/downloads/ios/flutter/pdftron-tools/latest.podspec
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  PDFTron: 4a0822e2bd3cc490d25670b1e5deda96b6b19247
+  pdftron_flutter: 26edc34717afac412bcccb6062a36c6329564b07
+  PDFTronTools: 13a795c4c647359dd9883e54cc40696dd7c63ed9
+
+PODFILE CHECKSUM: 2b67d0c2718a208429b6c86ee35767b3ffeeb506
+
+COCOAPODS: 1.11.3
